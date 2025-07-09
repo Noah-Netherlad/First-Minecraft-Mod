@@ -12,9 +12,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new FabricItemSettings()));
+    public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroups(FabricItemGroupEntries entries) {
         entries.add(PINK_GARNET);
+        entries.add(RAW_PINK_GARNET);
     }
 
     private static Item registerItem(String name, Item item) {
