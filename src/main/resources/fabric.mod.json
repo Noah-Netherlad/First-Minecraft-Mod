@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "firstmod",
+	"version": "${version}",
+	"name": "FirstMod",
+	"description": "This is my first mod ever with actual JAVA programming! I took a class on Java a few years back, but now I'm putting it to use.",
+	"authors": [
+		"Noah Hawkins"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Noah-Netherlad/First-Minecraft-Mod"
+	},
+	"license": "MIT",
+	"icon": "assets/firstmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.modid.FirstMod"
+		],
+		"fabric-datagen": [
+			"name.modid.FirstModDataGenerator"
+		],
+		"client": [
+			"name.modid.FirstModClient"
+		]
+	},
+	"mixins": [
+		"firstmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
