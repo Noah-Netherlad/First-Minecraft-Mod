@@ -2,5 +2,8 @@
   "item.firstmod.pink_garnet": "Pink Garnet",
   "item.firstmod.raw_pink_garnet": "Raw Pink Garnet",
 
+  "block.firstmod.pink_garnet_block": "Pink Garnet Block",
+  "block.firstmod.raw_pink_garnet_block": "Raw Pink Garnet Block",
+
   "itemgroup.pink_garnet": "Pink Garnet ItemGroup"
 }

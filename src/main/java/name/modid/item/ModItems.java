@@ -25,6 +25,6 @@ public class ModItems {
     public  static  void registerModItems() {
         FirstMod.LOGGER.info("Registering Mod Items for " + FirstMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroups);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroups); //Adds the items to Ingredients
     }
 }
